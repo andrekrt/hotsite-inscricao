@@ -1,0 +1,559 @@
+body{
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.corpo-geral{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.intro{
+    background-image: url(../images/FUNDO-1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-niver{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-niver img{
+    width: 350px;
+}
+
+.texto{
+    font-size: 25px;
+    text-align: justify;
+    color: #FFF;
+    margin: 30px;
+    width: 70%;
+}
+
+.subtitulo{
+    color: #FFF;
+    text-align: center;
+    
+}
+
+.subtitulo h4{
+    font-size: 30px;
+}
+
+.rodape-intro{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rodape-intro img{
+    width: 200px;
+    margin: 20px;
+}
+
+.categoria{
+    background-image: url(../images/FUNDO-2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-desafio{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-desafio img{
+    width: 350px;
+}
+
+.tipo-categoria{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo-categoria img{
+    width: 400px;
+}
+
+.rodape-categoria{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-categoria img{
+    width: 500px;
+}
+
+.texto-rodape{
+    background-color: #072a00;
+    border-radius: 15px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.rodape-categoria p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+}
+
+.rodape-categoria span{
+    color: #61b859;
+}
+
+.premiacao{
+    background-image: url(../images/FUNDO-3.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-premiacao {
+    color: #FFF;
+    font-size: 40px;
+    width: 65%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.categorias{
+    width: 50%;
+    border: solid 2px #43de22;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.categorias span{
+    color: #41d21f;
+}
+
+.texto-premiacao{
+    width: 50%;
+    padding: 10px;
+    font-size: 30px;
+    color: #FFF;
+    text-align: justify;
+}
+
+.premiacao01{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.premiacao01 img{
+    width: 100%;
+}
+
+.inscricao{
+    background-image: url(../images/FUNDO-4.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-inscricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho-inscricao img{
+    width: 450px;
+    margin: 10px;
+}
+
+.serquilhas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #054700;
+    font-size: 40px;
+    color: #FFF;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.serquilhas p{
+    margin: auto;
+}
+
+.area-form{
+    border: solid 2px #3adc19;
+    width: 70%;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.titulo-form{
+    text-align: center;
+    font-size: 35px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+form{
+    padding: 15px;
+}
+
+form button{
+    margin: auto;
+}
+
+select:invalid{
+    color: gray;
+}
+
+.rodape-inscricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-inscricao img{
+    width: 400px;
+    align-items: center;
+}
+
+.rodape-inscricao p{
+    font-size: 40px;
+    color: #3adc19;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo-painel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.corpo-tabela{
+    background-color: #E6E6E6;
+}
+
+/*tela de login*/
+.login{
+    background-image: url('../images/FUNDO-1.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.area-title-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.area-title-login img{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.area-login{
+    background-color: rgba(58, 220, 25, 0.3);
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.cabecalho img{
+    height: 50px;
+}
+
+.cabecalho p{
+    margin-top:auto ;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.espaco{
+    margin-bottom: 15px;
+}
+.espaco label{
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* tela de finalização */
+.tela-finalizada{
+    background-image: url('../images/FUNDO-1.png');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-finalizacao img{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.titulo-finalizacao h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.texto-finalizacao{
+    width: 50%;
+}
+
+.texto-finalizacao p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.insta{
+    background-color: #ec3237;
+    border-radius: 10px;
+}
+
+.insta a{
+    font-size: 25px;
+    margin: 10px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rodape-finalizacao{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.rodape-finalizacao img{
+    width: 200px;
+    margin: 20px;
+}
+
+/* table 768 */
+@media(max-width:768px){
+    .texto{
+        font-size: 20px;
+    }
+
+    .subtitulo h4{
+        font-size: 25px;
+    }
+
+    .rodape-categoria p{
+        font-size: 25px;
+    }
+
+    .titulo-premiacao, .categorias{
+        font-size: 30px;
+    }
+    .texto-premiacao{
+        font-size: 25px;
+    }
+    .cabecalho-inscricao img{
+        width: 350px;
+    }
+    .serquilhas{
+        width: 70%;
+        font-size: 25px;
+    }
+    .titulo-form{
+        font-size: 25px;
+    }
+    .titulo-finalizacao h3{
+        font-size: 30px;
+    }
+    .texto-finalizacao p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:425px){
+    .logo-niver img{
+        width: 250px;
+    }
+    .texto{
+        font-size: 17px;
+    }
+    .subtitulo h4{
+        font-size: 20px;
+    }
+    .rodape-intro img{
+        width: 170px;
+        margin: 10px;
+    }
+    .logo-desafio img{
+        width: 300px;
+    }
+    .rodape-categoria img{
+        width: 300px;
+    }
+    .texto-rodape{
+        width: 90%;
+    }
+    .rodape-categoria p{
+        font-size: 18px;
+    }
+    .titulo-premiacao, .texto-premiacao, .serquilhas{
+        width: 90%;
+        font-size: 20px;
+    }
+    .categorias{
+        width: 90%;
+    }
+    .premiacao01{
+        width: 90%;
+    }
+    .cabecalho-inscricao img{
+        width: 300px;
+    }
+    .area-form{
+        width: 90%;
+    }
+    .titulo-form{
+        font-size: 18px;
+        margin: 5px;
+    }
+    .rodape-inscricao img{
+        width: 250px;
+    }
+    .rodape-inscricao p{
+        font-size: 25px;
+    }
+    .logo-finalizacao img{
+        height: 250px;
+    }
+    .titulo-finalizacao h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .texto-finalizacao{
+        width: 90%;
+    }
+    .rodape-finalizacao img{
+        width: 180px;
+        margin: 15px;
+    }
+   
+}
+
+@media(max-width:375px){
+    .area-login{
+        width: 90%;
+    }
+    .titulo-finalizacao h3{
+        font-size: 22px;
+        text-align: center;
+    }
+    .texto-finalizacao p{
+        font-size: 17px;
+    }
+    .rodape-finalizacao img{
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+@media(max-width:320px){
+    .texto{
+        font-size: 15px;
+    }
+    .subtitulo h4{
+        font-size: 17px;
+    }
+    .rodape-intro img{
+        width: 150px;
+        margin: 5px;
+    }
+    .logo-desafio img{
+        width: 250px;
+    }
+    .tipo-categoria img, .rodape-categoria img{
+        width: 250px;
+    }
+    .texto-rodape{
+        width: 95%;
+    }
+    .rodape-categoria p{
+        font-size: 15px;
+    }
+    .titulo-premiacao{
+        font-size: 16px;
+    }
+    .categorias{
+        font-size: 20px;
+    }
+    .texto-premiacao{
+        font-size: 16px;
+    }
+    .cabecalho-inscricao img{
+        width: 250px;
+    }
+    .serquilhas{
+        width: 95%;
+        font-size: 12px;
+    }
+    .serquilhas p{
+        margin: auto;
+    }
+    .titulo-form{
+        font-size: 14px;
+    }
+    .rodape-inscricao img{
+        width: 250px;
+    }
+    .rodape-inscricao p{
+        font-size: 25px;
+    }
+    .texto-finalizacao p{
+        font-size: 15px;
+    }
+    .rodape-finalizacao img{
+        width: 130px;
+        margin: 10px;
+    }
+}
